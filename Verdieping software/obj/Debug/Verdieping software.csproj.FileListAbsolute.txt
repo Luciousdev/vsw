@@ -1,0 +1,13 @@
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\bin\Debug\Verdieping software.exe.config
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\bin\Debug\Verdieping software.exe
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\bin\Debug\Verdieping software.pdb
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping software.csproj.AssemblyReference.cache
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping_software.Form1.resources
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping_software.Properties.Resources.resources
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping software.csproj.GenerateResource.cache
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping software.csproj.CoreCompileInputs.cache
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping software.exe
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping software.pdb
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lucyp\source\repos\Verdieping software\Verdieping software\obj\Debug\Verdieping software.csproj.CopyComplete
