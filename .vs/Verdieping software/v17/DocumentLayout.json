@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|c:\\users\\lucyp\\source\\repos\\verdieping software\\vsw\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|solutionrelative:vsw\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|c:\\users\\lucyp\\source\\repos\\verdieping software\\vsw\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|solutionrelative:vsw\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|c:\\users\\lucyp\\source\\repos\\verdieping software\\vsw\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|solutionrelative:vsw\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|c:\\users\\lucyp\\source\\repos\\verdieping software\\vsw\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DAAC438-2A54-4A48-8F97-659B7B112B32}|vsw\\vsw.csproj|solutionrelative:vsw\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form3.cs",
+              "RelativeDocumentMoniker": "vsw\\Form3.cs",
+              "ToolTip": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form3.cs",
+              "RelativeToolTip": "vsw\\Form3.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIA6wBcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:57:08.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form3.cs",
+              "RelativeDocumentMoniker": "vsw\\Form3.cs",
+              "ToolTip": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form3.cs [Design]",
+              "RelativeToolTip": "vsw\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:56:59.497Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form4.cs",
+              "RelativeDocumentMoniker": "vsw\\Form4.cs",
+              "ToolTip": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form4.cs",
+              "RelativeToolTip": "vsw\\Form4.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:56:37.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form4.cs",
+              "RelativeDocumentMoniker": "vsw\\Form4.cs",
+              "ToolTip": "C:\\Users\\lucyp\\source\\repos\\Verdieping software\\vsw\\Form4.cs [Design]",
+              "RelativeToolTip": "vsw\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:53:41.676Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
