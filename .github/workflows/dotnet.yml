@@ -26,7 +26,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.1
 
     - name: Restore Packages
-      run: nuget restore Verdieping software.sln
+      run: nuget restore "Verdieping software.sln"
 
     - name: Build solution
       run: msbuild -t:build -property:Configuration=Release
