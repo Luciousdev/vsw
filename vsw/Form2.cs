@@ -83,6 +83,13 @@ namespace vsw
             new Form3(bearerToken).Show();
             this.Hide();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
+            MessageBox.Show("You are being logged out.");
+        }
     }
 
     // Define a User class to represent user data

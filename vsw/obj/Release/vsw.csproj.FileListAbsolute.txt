@@ -8,9 +8,9 @@ C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.Form1.resour
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.Properties.Resources.resources
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.csproj.GenerateResource.cache
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.csproj.CoreCompileInputs.cache
-C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.csproj.CopyComplete
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.exe
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.pdb
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.getusers.resources
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.Form3.resources
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.signup.resources
+C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.csproj.Up2Date

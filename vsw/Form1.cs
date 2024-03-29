@@ -59,7 +59,7 @@ namespace vsw
 
                             new getusers(bearerToken).Show();
                             this.Hide();
-                            MessageBox.Show("Login successful!"+ bearerToken);
+                            MessageBox.Show("Login successful!");
                         }
                         else
                         {

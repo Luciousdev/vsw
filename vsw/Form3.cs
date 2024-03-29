@@ -12,7 +12,6 @@ namespace vsw
         {
             InitializeComponent();
             this.bearerToken = bearerToken;
-            MessageBox.Show(bearerToken);
         }
 
         private async void button1_Click(object sender, EventArgs e)
@@ -69,6 +68,13 @@ namespace vsw
             {
                 MessageBox.Show("Request failed: " + ex.Message);
             }
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
+            MessageBox.Show("You are being logged out.");
         }
     }
 }
