@@ -37,7 +37,7 @@ namespace vsw
                     var parameters = new Dictionary<string, string>
                     {
                         { "email", email },
-                        { "password", inputPassword } // Using renamed variable here
+                        { "password", inputPassword }
                     };
 
                     var encodedContent = new FormUrlEncodedContent(parameters);

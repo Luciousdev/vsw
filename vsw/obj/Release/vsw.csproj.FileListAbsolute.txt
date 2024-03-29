@@ -14,3 +14,20 @@ C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.getusers.res
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.Form3.resources
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.signup.resources
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Release\vsw.csproj.Up2Date
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.csproj.AssemblyReference.cache
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.Form1.resources
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.getusers.resources
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.Form3.resources
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.Form4.resources
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.Properties.Resources.resources
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.signup.resources
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.csproj.GenerateResource.cache
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.csproj.CoreCompileInputs.cache
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.exe
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.pdb
+C:\Users\lucyp\Source\Repos\vsw2\vsw\bin\Release\vsw.exe.config
+C:\Users\lucyp\Source\Repos\vsw2\vsw\bin\Release\vsw.exe
+C:\Users\lucyp\Source\Repos\vsw2\vsw\bin\Release\vsw.pdb
+C:\Users\lucyp\Source\Repos\vsw2\vsw\bin\Release\Newtonsoft.Json.dll
+C:\Users\lucyp\Source\Repos\vsw2\vsw\bin\Release\Newtonsoft.Json.xml
+C:\Users\lucyp\Source\Repos\vsw2\vsw\obj\Release\vsw.csproj.CopyComplete

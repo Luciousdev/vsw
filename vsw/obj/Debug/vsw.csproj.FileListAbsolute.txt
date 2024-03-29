@@ -12,3 +12,6 @@ C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Debug\vsw.csproj.CopyCom
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Debug\vsw.exe
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Debug\vsw.pdb
 C:\Users\lucyp\source\repos\Verdieping software\vsw\obj\Debug\vsw.Form2.resources
+C:\Users\lucyp\source\repos\vsw2\vsw\obj\Debug\vsw.csproj.AssemblyReference.cache
+C:\Users\lucyp\source\repos\vsw2\vsw\obj\Debug\vsw.exe
+C:\Users\lucyp\source\repos\vsw2\vsw\obj\Debug\vsw.pdb

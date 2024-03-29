@@ -15,6 +15,12 @@ namespace vsw
             InitializeComponent();
         }
 
+        public getusers(string bearerTokenInput)
+        {
+            InitializeComponent();
+            bearerToken = bearerTokenInput;
+        }
+
         private async void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
@@ -49,13 +55,6 @@ namespace vsw
             }
         }
 
-        public getusers(string bearerTokenInput)
-        {
-            InitializeComponent();
-            bearerToken = bearerTokenInput;
-        }
-
-
         private void DisplayUsers(List<User> users)
         {
             // Clear existing data in GUI components
@@ -68,14 +67,38 @@ namespace vsw
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                try
+                {
+                    DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+                    string userEmail = row.Cells["Email"].Value.ToString();
 
-        }
+                    using (HttpClient client = new HttpClient())
+                    {
+                        client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", bearerToken);
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
+                        HttpResponseMessage response = await client.GetAsync($"https://swordfish.luciousdev.nl/api/post/user?email={userEmail}");
 
+                        if (response.IsSuccessStatusCode)
+                        {
+                            string responseData = await response.Content.ReadAsStringAsync();
+                            // Assuming responseData contains the posts data in some format
+                            MessageBox.Show(responseData, "Posts by " + userEmail, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to fetch posts for the user. Please try again later.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred: {ex.Message}");
+                }
+            }
         }
 
         private void createuserlinklable_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -89,6 +112,12 @@ namespace vsw
             new Form1().Show();
             this.Hide();
             MessageBox.Show("You are being logged out.");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form4(bearerToken).Show();
+            this.Hide();
         }
     }
 

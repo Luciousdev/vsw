@@ -76,5 +76,11 @@ namespace vsw
             this.Hide();
             MessageBox.Show("You are being logged out.");
         }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form4(bearerToken).Show();
+            this.Hide();
+        }
     }
 }
