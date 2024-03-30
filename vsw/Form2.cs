@@ -85,8 +85,21 @@ namespace vsw
                         if (response.IsSuccessStatusCode)
                         {
                             string responseData = await response.Content.ReadAsStringAsync();
-                            // Assuming responseData contains the posts data in some format
-                            MessageBox.Show(responseData, "Posts by " + userEmail, MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            // Deserialize JSON response to an object containing the posts array
+                            var responseObject = JsonConvert.DeserializeObject<PostResponse>(responseData);
+
+                            // Extract the list of posts from the responseObject
+                            List<Post> posts = responseObject.Posts;
+
+                            string message = "Posts by " + userEmail + ":\n";
+                            foreach (var post in posts)
+                            {
+                                message += $"\nTitle: {post.Title}\nBody: {post.Body}\n";
+                            }
+
+                            // Display the message in a MessageBox
+                            MessageBox.Show(message, "Posts", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         else
                         {
@@ -100,6 +113,7 @@ namespace vsw
                 }
             }
         }
+
 
         private void createuserlinklable_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -119,6 +133,23 @@ namespace vsw
             new Form4(bearerToken).Show();
             this.Hide();
         }
+    }
+
+    public class Post
+    {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public string Title { get; set; }
+        public string Body { get; set; }
+        public string Excerpt { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+    }
+
+    public class PostResponse
+    {
+        [JsonProperty("posts")]
+        public List<Post> Posts { get; set; }
     }
 
     // Define a User class to represent user data
